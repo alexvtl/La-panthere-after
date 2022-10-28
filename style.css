@@ -275,6 +275,9 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 22px;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -438,6 +441,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    color: white;
 }
 
 .mg-lg {
@@ -477,6 +481,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: white;
 }
 
 .icon-lg {
@@ -651,7 +656,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -676,8 +681,8 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
+.text-center{
+    font-size: 15fheropx;
 }
 
 .tight-width-whitespace {
@@ -697,6 +702,10 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+}
+
+.citation.text-center{
+font-size: 20px;
 }
 
 .social {
@@ -775,7 +784,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
+
 }
 
 .btn-atomic-tangerine {
@@ -793,7 +803,7 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #ffffff!important;
 }
 
 .ltc-atomic-tangerine {
@@ -1032,11 +1042,5 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
     }
 }
