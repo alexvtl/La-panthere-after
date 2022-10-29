@@ -404,6 +404,9 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+    .navbar-toggle{
+        display: none;
+    }
 }
 
 .nav > li > .dropdown a {
@@ -509,10 +512,15 @@ button {
 .panel-rd .panel-footer {
     border-radius: 0 0 29px 29px;
 }
+.form-group{
+display: flex;
+flex-direction:column;
+}
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    margin-bottom: 15px;
 }
 
 .scrollToTop {
@@ -663,6 +671,8 @@ a {
 
 .container {
     max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .hero-bloc-text {
@@ -864,13 +874,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -889,8 +899,6 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -900,8 +908,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1042,6 +1048,10 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .row-social {
+        display: flex;
+        justify-content: space-around;
     }
 }
 
