@@ -14,7 +14,7 @@ button {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration:underline;
     cursor: pointer;
 }
 
@@ -338,6 +338,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    text-decoration: underline;
 }
 
 .navbar-toggle {
@@ -834,7 +835,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpeg");
 }
 
 @media (max-width: 1024px) {
@@ -945,6 +946,7 @@ h4 {
     }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
+        text-decoration: underline;
     }
     .dropdown .dropdown a .caret {
         float: none;
