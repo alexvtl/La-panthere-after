@@ -707,13 +707,11 @@
 }
 
 .fa-twitter-square:before {
-    content: "\f081";
-    color: white;
+    content: "\f081"
 }
 
 .fa-facebook-square:before {
-    content: "\f082";
-    color:white;
+    content: "\f082"
 }
 
 .fa-camera-retro:before {
@@ -802,14 +800,12 @@
 }
 
 .fa-twitter:before {
-    content: "\f099";
-    color:white;
+    content: "\f099"
 }
 
 .fa-facebook-f:before,
 .fa-facebook:before {
-    content: "\f09a";
-    color: white;
+    content: "\f09a"
 }
 
 .fa-github:before {
@@ -1580,9 +1576,7 @@
 }
 
 .fa-instagram:before {
-    content: "\f16d";
-    color: white;
-
+    content: "\f16d"
 }
 
 .fa-flickr:before {
@@ -1642,8 +1636,7 @@
 }
 
 .fa-dribbble:before {
-    content: "\f17d";
-    color: white;
+    content: "\f17d"
 }
 
 .fa-skype:before {
@@ -2332,8 +2325,7 @@
 }
 
 .fa-facebook-official:before {
-    content: "\f230";
-    color: white;
+    content: "\f230"
 }
 
 .fa-pinterest-p:before {
