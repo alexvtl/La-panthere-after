@@ -375,7 +375,7 @@ ul li a{
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20%;
+        right: 0%;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
         text-decoration: none;
