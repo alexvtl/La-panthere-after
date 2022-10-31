@@ -44,6 +44,10 @@ a:hover {
     padding-right: 0;
 }
 
+.bloc .container img{
+    border-radius: 20px;
+}
+
 .bloc-lg {
     padding: 100px 50px;
 }
@@ -54,6 +58,13 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+}
+
+.div-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
 }
 
 .bg-center,
@@ -494,6 +505,7 @@ button {
     font-size: 30px!important;
     color: white;
 }
+
 
 .icon-lg {
     font-size: 60px!important;
